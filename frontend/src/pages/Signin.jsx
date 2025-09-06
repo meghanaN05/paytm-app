@@ -17,7 +17,7 @@ export default function Signin() {
     return   <div className="bg-white mx-auto max-w-5xl">
         <Heading label={"SignIn"} />
         <SubHeading label={"Enter your Information"} />
-        <InputBox label={"E-mail"} placeholder={"manojnoochila@gmail.com"} onchange={(e) => {
+        <InputBox label={"E-mail"} placeholder={"meghananoochila@gmail.com"} onchange={(e) => {
             setEmail(e.target.value)
         }} type="email" />
         <InputBox label={"Password"} placeholder={"Enter your password"} onchange={(e) => {

@@ -21,16 +21,16 @@ export default function Signup() {
 
         <Heading label={"SignUp"} />
         <SubHeading label={"Enter your Information"} />
-        <InputBox label={"User-Name"} placeholder={"Manoj N"} onchange={(e) => {
+        <InputBox label={"User-Name"} placeholder={"Meghana N"} onchange={(e) => {
             setUserName(e.target.value)
         }} type="text" />
-        <InputBox label={"First-Name"} placeholder={"Manoj "} onchange={(e) => {
+        <InputBox label={"First-Name"} placeholder={"Meghana "} onchange={(e) => {
             setFirstName(e.target.value)
         }} type="text" />
         <InputBox label={"Last-Name"} placeholder={"Noochila "} onchange={(e) => {
             setLastName(e.target.value)
         }} type="text" />
-        <InputBox label={"E-mail"} placeholder={"manojnoochila@gmail.com"} onchange={(e) => {
+        <InputBox label={"E-mail"} placeholder={"meghananoochila@gmail.com"} onchange={(e) => {
             setEmail(e.target.value)
         }} type="email" />
         <InputBox label={"Password"} placeholder={"Enter your password"} onchange={(e) => {

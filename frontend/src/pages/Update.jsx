@@ -19,7 +19,7 @@ export default function Update() {
     return <div className="bg-white mx-auto max-w-5xl">
         <Heading label={"Update Section"} />
         <SubHeading label={"Enter your Information"} />
-        <InputBox label={"First-Name"} placeholder={"Manoj "} onchange={(e) => {
+        <InputBox label={"First-Name"} placeholder={"Meghana"} onchange={(e) => {
             setFirstName(e.target.value)
         }} />
         <InputBox label={"Last-Name"} placeholder={"Noochila "} onchange={(e) => {
